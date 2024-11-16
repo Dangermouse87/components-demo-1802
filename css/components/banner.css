@@ -1,0 +1,20 @@
+.banner {
+  /* transforms the image so it covers the whole div */
+  background-size: cover;
+  /* centers the view of the picture */
+  background-position: center;
+  /* adds space between the content and the border */
+  padding: 120px 30px;
+}
+
+.banner h1, .banner p {
+  color: white;
+}
+
+.banner h1 {
+  font-size: 24px;
+}
+
+.banner p {
+  font-size: 12px;
+}

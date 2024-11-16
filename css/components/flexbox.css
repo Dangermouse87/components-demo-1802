@@ -1,0 +1,22 @@
+.flexbox {
+  display: flex;
+  height: 400px;
+  /* flex-direction: column; */
+  /* Adds space around each item evenly */
+  /* justify-content: space-evenly; */
+
+  /* Adds even amount of space between each item, but pushes the outer items to the edge */
+  justify-content: space-between;
+
+  /* Centers your content */
+  /* justify-content: center; */
+
+  /* places content at the top */
+  /* align-items: flex-start; */
+
+  /* places items at the bottom */
+  /* align-items: flex-end; */
+
+  /* vertically centers items */
+  align-items: center;
+}

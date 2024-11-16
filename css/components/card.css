@@ -1,0 +1,50 @@
+.card-category {
+  height: 300px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 1);
+  border-radius: 15px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 1);
+}
+
+.card-product {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 400px;
+}
+
+.card-product img {
+  width: 200px;
+  height: 200px;
+}
+
+.card-product div {
+  padding: 16px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+.card-trip {
+  height: 300px;
+  width: 400px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3)
+  margin: 8px auto;
+}
+
+.card-trip img {
+  height: 60%;
+  width: 100%;
+}
+
+.card-trip .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 16px;
+}
